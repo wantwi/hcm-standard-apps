@@ -1,0 +1,700 @@
+{
+    "en": [
+        {
+            "_tag": "CSidebarNavItem",
+            "name": "Apps",
+            "to": "/apps",
+            "icon": "cil-speedometer"
+        },
+        {
+            "_tag": "CSidebarNavDropdown",
+            "name": "Authorization",
+            "route": "/base",
+            "icon": "cil-cursor",
+            "_children": [
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Configuration",
+                    "to": "/authorization/configuration"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Group Manager",
+                    "to": "/authorization/groupmanager"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "User Manager",
+                    "to": "/authorization/usermanager"
+                }
+            ]
+        },
+        {
+            "_tag": "CSidebarNavDropdown",
+            "name": "Bank Information",
+            "route": "/base",
+            "icon": "cil-cursor",
+            "_children": [
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Bank",
+                    "to": "/bankinformation/employeebanks"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Branch",
+                    "to": "/bankinformation/branch"
+                }
+            ]
+        },
+        {
+            "_tag": "CSidebarNavDropdown",
+            "name": "Organisation",
+            "route": "/base",
+            "icon": "cil-cursor",
+            "_children": [
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Department",
+                    "to": "/organisation/department"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Division",
+                    "to": "/organisation/division"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Employee Type",
+                    "to": "/organisation/employeetypes"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Location",
+                    "to": "/organisation/location"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Position",
+                    "to": "/organisation/position"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Section",
+                    "to": "/organisation/section"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Unit",
+                    "to": "/organisation/unit"
+                }
+            ]
+        },
+        {
+            "_tag": "CSidebarNavDropdown",
+            "name": "Employee Manager",
+            "route": "/base",
+            "icon": "cil-cursor",
+            "_children": [
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Employee Detail",
+                    "to": "/employeemanager/employeedetail"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Employee Status",
+                    "to": "/employeemanager/employeestatus"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Employee Payroll Hours",
+                    "to": "/employeemanager/employeepayrollhours"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Employee Appraisal",
+                    "to": "/employeemanager/employeeappraisal"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Supervisor Appraisal",
+                    "to": "/employeemanager/supervisorappraisal"
+                }
+            ]
+        }, 
+        {
+            "_tag": "CSidebarNavDropdown",
+            "name": "General Settings",
+            "route": "/icons",
+            "icon": "cil-layers",
+            "_children": [
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Absent",
+                    "to": "/generalsettings/absent"
+                }
+                ,
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Activity",
+                    "to": "/generalsettings/activity"
+                },
+                
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Currency",
+                    "to": "/generalsettings/currency"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Exchange Rate",
+                    "to": "/generalsettings/exchangerate"
+                },
+                
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Earning",
+                    "to": "/generalsettings/earning"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Deduction",
+                    "to": "/generalsettings/deduction"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "GL Account",
+                    "to": "/generalsettings/glaccount"
+                },                
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Loan",
+                    "to": "/generalsettings/loan"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Pay Period",
+                    "to": "/generalsettings/payperiod"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Saving Scheme",
+                    "to": "/generalsettings/savingscheme"
+                },
+                
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Salary Grade",
+                    "to": "/generalsettings/salarygrade"
+                }
+                ,
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Tax Relief",
+                    "to": "/generalsettings/taxrelief"
+                }
+            ]
+        },  
+        {
+            "_tag": "CSidebarNavDropdown",
+            "name": "Generic Parameter",
+            "route": "/icons",
+            "icon": "cil-layers",
+            "_children": [
+               
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Absent Type",
+                    "to": "/genericparameter/absenttype"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Account Type",
+                    "to": "/genericparameter/accounttype"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Action Type",
+                    "to": "/genericparameter/actiontype"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Ailment",
+                    "to": "/genericparameter/ailment"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Bank Account Type",
+                    "to": "/genericparameter/bankaccounttypes"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Checklist",
+                    "to": "/genericparameter/checklist"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Contract Type",
+                    "to": "/genericparameter/contracttypes"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Donor",
+                    "to": "/genericparameter/donor"
+                },
+             
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Exchange Method",
+                    "to": "/genericparameter/exchangemethod"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Fund",
+                    "to": "/genericparameter/fund"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Gender",
+                    "to": "/genericparameter/gender"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "GL File Type",
+                    "to": "/genericparameter/gLfiletypes"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Letters",
+                    "to": "/genericparameter/letters"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Marital Status",
+                    "to": "/genericparameter/maritalstatus"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Medical Treatment",
+                    "to": "/genericparameter/medicaltreatment"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Pay Frequency",
+                    "to": "/genericparameter/payfrequency"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Project Code",
+                    "to": "/genericparameter/projectcodes"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Reference",
+                    "to": "/genericparameter/reference"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Registration",
+                    "to": "/genericparameter/registration"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Report Subgroup Type",
+                    "to": "/genericparameter/reportsubgrouptype"
+                }
+                ,
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Service Provider",
+                    "to": "/genericparameter/serviceprovider"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Transaction Analysis",
+                    "to": "/genericparameter/transactionanalysis"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Title",
+                    "to": "/genericparameter/title"
+                }
+            ]
+        },
+        
+        {
+            "_tag": "CSidebarNavDropdown",
+            "name": "View Master Data",
+            "route": "/base",
+            "icon": "cil-cursor",
+            "_children": [
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Tax Table",
+                    "to": "/taxmanager/taxtable"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Tax Relief",
+                    "to": "/taxmanager/taxrelief"
+                }
+            ]
+        },
+        {
+            "_tag": "CSidebarNavItem",
+            "name": "Reports",
+            "to": "/report",
+            "icon": "cil-notes"
+        }
+       
+    ],
+    "fr": [
+        {
+            "_tag": "CSidebarNavItem",
+            "name": "Tableau De Bord",
+            "to": "/dashboard",
+            "icon": "cil-speedometer"
+        },
+        {
+            "_tag": "CSidebarNavDropdown",
+            "name": "Autorisation",
+            "route": "/base",
+            "icon": "cil-cursor",
+            "_children": [
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Configuration",
+                    "to": "/authorization/configuration"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Gérer Le Groupe",
+                    "to": "/authorization/groupmanager"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Gérer L'utilisateur",
+                    "to": "/authorization/usermanager"
+                }
+            ]
+        },
+        {
+            "_tag": "CSidebarNavDropdown",
+            "name": "Information Bancaire",
+            "route": "/base",
+            "icon": "cil-cursor",
+            "_children": [
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Banque",
+                    "to": "/bankinformation/employeebanks"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Bifurquer",
+                    "to": "/bankinformation/branch"
+                }
+            ]
+        },
+        {
+            "_tag": "CSidebarNavDropdown",
+            "name": "Organisme",
+            "route": "/base",
+            "icon": "cil-cursor",
+            "_children": [
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Département",
+                    "to": "/organisation/department"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Division",
+                    "to": "/organisation/division"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Type d'employé",
+                    "to": "/organisation/employeetypes"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Emplacement",
+                    "to": "/organisation/location"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Position",
+                    "to": "/organisation/position"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Section",
+                    "to": "/organisation/section"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Unité",
+                    "to": "/organisation/unit"
+                }
+            ]
+        },
+        {
+            "_tag": "CSidebarNavDropdown",
+            "name": "Gestionnaire des employés",
+            "route": "/base",
+            "icon": "cil-cursor",
+            "_children": [
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Détail de l'employé",
+                    "to": "/employeemanager/employeedetail"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "statut de l'employé",
+                    "to": "/employeemanager/employeestatus"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Heures de paie des employés",
+                    "to": "/employeemanager/employeepayrollhours"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Évaluation des employés",
+                    "to": "/employeemanager/employeeappraisal"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Évaluation du superviseur",
+                    "to": "/employeemanager/supervisorappraisal"
+                }
+            ]
+        },
+        {
+            "_tag": "CSidebarNavDropdown",
+            "name": "Réglages Généraux",
+            "route": "/icons",
+            "icon": "cil-layers",
+            "_children": [
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Absente",
+                    "to": "/generalsettings/absent"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Activité",
+                    "to": "/generalsettings/activity"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Devise",
+                    "to": "/generalsettings/currency"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Utilisateur actuel",
+                    "to": "/generalsettings/exchangerate"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Revenus",
+                    "to": "/generalsettings/earning"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Déduction",
+                    "to": "/generalsettings/deduction"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Compte GL",
+                    "to": "/generalsettings/glaccount"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Prêt",
+                    "to": "/generalsettings/loan"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Période de paie",
+                    "to": "/generalsettings/payperiod"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Plan d'épargne",
+                    "to": "/generalsettings/savingscheme"
+                },
+               
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Niveau de salaire",
+                    "to": "/generalsettings/salarygrade"
+                },
+                
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Allégement fiscal",
+                    "to": "/generalsettings/taxrelief"
+                }
+            ]
+        },
+        {
+            "_tag": "CSidebarNavDropdown",
+            "name": "Paramètre générique",
+            "route": "/icons",
+            "icon": "cil-layers",
+            "_children": [
+              
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Type d'absence",
+                    "to": "/genericparameter/absenttype"
+                },
+              
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Account Type",
+                    "to": "/genericparameter/accounttype"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "type d'action",
+                    "to": "/genericparameter/actiontype"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Maladie",
+                    "to": "/genericparameter/ailment"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Types de compte bancaire",
+                    "to": "/genericparameter/bankaccounttypes"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Liste de contrôle",
+                    "to": "/genericparameter/checklist"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Types de contrat",
+                    "to": "/genericparameter/contracttypes"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Donneur",
+                    "to": "/genericparameter/donor"
+                },
+              
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Méthode d'échange",
+                    "to": "/genericparameter/exchangemethod"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Fonds",
+                    "to": "/genericparameter/fund"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Le sexe",
+                    "to": "/genericparameter/fund"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Types de fichiers GL",
+                    "to": "/genericparameter/gLfiletypes"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Des lettres",
+                    "to": "/genericparameter/letters"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Marital Status",
+                    "to": "/genericparameter/maritalstatus"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Traitement médical",
+                    "to": "/genericparameter/medicaltreatment"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Fréquence de Paiement",
+                    "to": "/genericparameter/payfrequency"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Code de projet",
+                    "to": "/genericparameter/projectcodes"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Référence",
+                    "to": "/genericparameter/reference"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Inscription",
+                    "to": "/genericparameter/registration"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Type de sous-groupe de rapport",
+                    "to": "/genericparameter/reportsubgrouptype"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Fournisseur de services",
+                    "to": "/genericparameter/serviceprovider"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Analyse des transactions",
+                    "to": "/genericparameter/transactionanalysis"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Titre",
+                    "to": "/genericparameter/title"
+                }
+            ]
+        },
+       
+    
+        {
+            "_tag": "CSidebarNavDropdown",
+            "name": "Gestionnaire Fiscal",
+            "route": "/base",
+            "icon": "cil-cursor",
+            "_children": [
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Tableau des taxes",
+                    "to": "/taxmanager/taxtable"
+                },
+                {
+                    "_tag": "CSidebarNavItem",
+                    "name": "Allégement fiscal",
+                    "to": "/taxmanager/taxrelief"
+                }
+            ]
+        },
+        {
+            "_tag": "CSidebarNavItem",
+            "name": "Rapports",
+            "to": "/report",
+            "icon": "cil-notes"
+        }
+       
+    ]
+}
